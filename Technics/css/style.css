@@ -1,0 +1,72 @@
+/*selector de clase con contenedor flex y alineacion horizontal*/
+.cont_flex_alin_cent{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:center;
+    text-align: center;
+    border: black solid 5px;
+    margin: 10px;
+}
+.cont_flex_alin_izq{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: left;
+    text-align: left;
+    border: black solid 5px;
+    margin: 10px;
+}
+.cont_flex_alin_der{
+    display:flex;
+    flex-direction: column;
+    justify-content: right;
+    text-align: right;
+    border: black solid 5px;
+    margin: 10px;
+}
+.cont_flex_footer{
+    display:flex;
+    /*flex-direction: row;*/ /*ya es row por defecto*/
+    justify-content: space-between;
+    align-items: end;
+    text-align: left;
+    border: black solid 5px;
+    margin: 10px;
+}
+/*selector de clase con elementos flex (elementos dentro de contenedores flex)*/
+.elem_flex_text_cent{
+    text-align: center;
+    
+}
+.elem_flex_text_der{
+    text-align: right;
+}
+.elem_flex_text_izq{
+    text-align: left;
+}
+/*selector de id*/
+#secccion1-titulo{
+    font-size: 25px;
+}
+
+/*selectores de etiquetas HTML*/
+section{
+    border: black solid 5px;
+    padding: 10px;
+    margin: 10px;
+}
+header{
+    border: black solid 5px;
+    padding: 5px;
+    margin: 5px;
+}
+/*selectores de clase*/
+.imagen{
+    height: 300px;
+}
+
+.video{
+    height: 315px;
+    width: 560px;
+}

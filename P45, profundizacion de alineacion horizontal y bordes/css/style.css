@@ -1,0 +1,28 @@
+*{
+    width: 100%;
+}
+.linea_centrada{
+    display:flex;
+    flex-direction: row;   /*No hace falta, por defecto es así */
+    justify-content: center;
+}
+.html{
+    width: 200px;
+    border-bottom: 5px red dashed;
+    border-right: 5px red dashed;
+    padding: 20px;
+    margin: 20px;
+}
+.css{
+    width: 200px;
+    border-bottom: 5px red dashed;
+    border-left: 5px red dashed;
+    padding: 20px;
+    margin: 20px;
+}
+.chrome{
+    width: 200px;
+    border: 5px green dashed;
+    padding: 20px;
+    margin: 20px;
+}
